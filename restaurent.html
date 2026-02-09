@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restonet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:aliceblue;
+        }
+        .two {
+            border: 2px solid black;
+            width: auto;
+            height: 120px;
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.967);
+            align-items: center;
+           
+            
+           
+            
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 110px;
+            font-size: xx-large;
+            font-family: 'Josefin Sans',sans-serif;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            
+
+        }
+        nav img{
+            height: 80px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        li{
+            color:goldenrod;
+        }
+        li:hover{
+            color:darkgoldenrod;
+        }
+        nav button{
+            border-radius: 50px;
+            background-color: goldenrod;
+            width: 150px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 110px;
+            font-size: larger;
+            font-family:'Josefin Sans',sans-serif; 
+        }
+        .container{
+            border: 2px solid black;
+            background-color: #FFF7EA;
+            width: auto;
+            height: 618px;
+          
+        }
+        .container p{
+            color: black;
+            font-size:100px;
+            margin-left: 90px;
+            line-height: 0.8;
+            margin-top: 200px;
+            
+            
+            
+        }
+        .container button{
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 150px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             margin-left: 200px;
+             margin-top: -60px;
+             font-size: larger;
+             
+             
+             
+        }
+        .container1{
+            
+    position: absolute;
+    right: 100px;
+    top: 200px;
+
+
+           
+            
+         
+     }
+        .container2 {
+   
+   margin-top: 0px;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 70px;
+}
+
+.info-box img {
+    width: 45px;
+    height: 45px;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.text span {
+    font-size: 16px;
+    color: gray;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 110px;
+    margin-left: 60px ;
+}
+.box1{
+    width: auto;
+    margin-top: 80px;
+    height: 350px;
+   
+    display: flex;
+   
+    
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: left center;
+    margin-left: 30px;
+   
+    
+   
+  
+}.box2{
+    width: 1200px;
+    gap: 15px;
+    height: auto;
+   
+    display: inline;
+    margin-right: 140px;
+    justify-content: center;
+   
+    
+
+   
+    
+}
+.box2 h1{
+    margin: auto ;
+    margin-left: 150px;
+}
+.box2 span{
+font-size: x-large;
+           
+           
+
+}
+.box3{
+    width: 300px;
+    height: 175px;
+    
+    margin-top: 10px;
+    
+    justify-content: center;
+    margin-left: 10px;
+}
+.box3 h3{
+    margin-left: 70px;
+}
+.box3 span{
+    font-size:medium;
+    font-family:'Josefin Sans',sans-serif; 
+    
+
+}
+.box5{
+    width: auto;
+    height: 175px;
+    display: flex;
+}
+.box4{
+    width: 300px;
+    height: 175px;
+     
+    margin-top: 10px;
+    
+    justify-content: center;
+    margin-left: 10px;
+}
+.box4 h3{
+    margin-left: 70px;
+}
+.box4 span{
+    font-size:medium;
+    font-family:'Josefin Sans',sans-serif; 
+    
+
+}
+.divider {
+    width: 2px;          /* thickness */
+    height: 100%;         /* line height */
+    background-color:goldenrod;
+    border: none;
+    margin: 0 30px;      /* space from image & story */
+}
+.box6{
+    height: 618px;
+    width: auto;
+    
+    margin-top: 60px;
+}
+.box7{
+    height: 206px;
+    width: auto;
+    margin-top: 20px;
+    display: inline;
+    justify-content: center;
+    
+}
+.box7 h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   /* 👈 distance from text */
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.box7 h1{
+    text-align: center;
+    
+}
+.box7 span{
+    font-size: x-large;
+    display: block;
+    text-align: center;
+   
+}
+.box8{
+    height: 400px;
+    width: auto;
+    
+    margin-top: 20px;
+    display: flex;
+   
+    
+}
+.box9{
+    width: 300px;
+    height: 400px;
+   
+    margin-left: 120px;
+   
+    
+}
+.box10{
+    width: 300px;
+    height: 400px;
+   
+    margin-left: 120px;
+    display: inline;
+}
+.box11{
+    width: 300px;
+    height: 400px;
+   
+    margin-left: 120px;
+}
+.box9 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Card content layout */
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish-name{
+    font-size: large;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.price{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Rating */
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.eight{
+    color: rgb(245, 176, 3);
+    font-size: 18px;
+}
+
+/* Add to cart button */
+.cart-btn{
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cart-btn:hover{
+    background-color: darkorange;
+}
+.box10 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.burger1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box11 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.salad1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nine{
+background-color:orange;
+width: 200px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+color:white;
+font-size: 15px;
+cursor: pointer;
+border: none;
+}
+.box12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box13{
+    margin-top: 120px;
+    height: 400px;
+    width: auto;
+   
+    background-color:#FFF6EA;
+    display: flex;
+    
+    padding-left: 120px;
+
+
+    
+    align-items: center;
+}
+.box14{
+    margin-left: 60px;
+    max-width: 450px;
+ 
+ 
+
+}
+.box14 span{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+}
+.box14 h2 {
+  font-size: 48px;
+  margin: 20px 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.box14 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.box15{
+    height: 400px;
+    width: 900px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box16{
+    height: 150px;
+    width: 220px;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.box16 img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.box16  span{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: larger;
+}
+.box17{
+    height: 150px;
+    width: 220px;
+    border: 2px solid black;
+    background-color: black;
+}
+.box17 img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.box17  span{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: larger;
+}
+.box18{
+    height: 150px;
+    width: 220px;
+    border: 2px solid black;
+    background-color: black;
+}
+.box18 img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.box18  span{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: larger;
+}
+.box19{
+    height: 400px;
+    width: auto;
+    margin-top: 100px;
+    
+
+}
+.box20{
+    width: auto;
+    height: 200px;
+    
+   
+    line-height: 0.8;
+   
+   text-align: center;
+
+
+}
+.box20 span{
+    text-decoration: underline;
+     text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+    font-size:x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+.box20 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: large;
+}
+.box21{
+    width: auto;
+    height: 200px;
+    
+    display: flex;
+    
+    }
+    .box22{
+        width: 400px ;
+        height: 200px;
+        border: 2px solid black;
+        margin-left: 90px;
+        border-radius: 10px;
+        background-color:black;
+        text-align: center;
+        
+       
+    }
+    .box22 span{
+        color: white;
+        display: block;
+        margin-top: 30px;
+        font-size: large;
+         font-family:'Josefin Sans', sans-serif ;
+
+    }
+    .box22 p{
+        color:goldenrod;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        
+        
+    }
+    
+   
+    .box23{
+        width: 400px ;
+        height: 200px;
+        border: 2px solid black;
+        margin-left: 90px;
+        border-radius: 10px;
+         background-color: black;
+         text-align: center;
+    }
+     .box23 span{
+        color: white;
+        display: block;
+        margin-top: 30px;
+        font-size: large;
+         font-family:'Josefin Sans', sans-serif ;
+
+    }
+    .box23 p{
+        color:goldenrod;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        
+        
+    }
+    
+    .box24{
+        width: 400px ;
+        height: 200px;
+        border: 2px solid black;
+        margin-left: 90px;
+        border-radius: 10px;
+         background-color: black;
+         text-align: center;
+    }
+      .box24 span{
+        color: white;
+        display: block;
+        margin-top: 30px;
+        font-size: large;
+         font-family:'Josefin Sans', sans-serif ;
+
+    }
+    .box24 p{
+        color:goldenrod;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        
+        
+    }
+    .box25{
+    height: 800px;
+    width: auto;
+    
+   
+    
+    margin-top: 100px;
+
+}
+.box26{
+    width: auto;
+    height: 200px;
+    
+   
+    line-height: 0.8;
+   
+   text-align: center;
+
+
+}
+.box26 span{
+    text-decoration: underline;
+     text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+    font-size:x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+.box26 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: large;
+}
+.box27{
+    width: 500px;
+    height: 600px;
+   
+    
+   
+}
+.box28{
+    width: 500px;
+    height: 600px;
+    
+}
+.box29{
+    width: auto;
+    height: 600px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+    gap: 30px;
+    
+}
+.box27 img{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.box27{
+    background-color: #FFF7EA;
+    text-align: center;
+}
+.box27 span{
+    
+    text-decoration: underline;
+     text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+    font-size:x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+.box27 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: large;
+}
+.box28 img{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.box28{
+    background-color: #FFF7EA;
+    text-align: center;
+}
+.box28 span{
+    
+    text-decoration: underline;
+     text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+    font-size:x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+.box28 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: large;
+}
+.box30{
+    height: 250px;
+    width: 1400px;
+    border: 2px solid black;
+    margin-top: 40px;
+    background-color: black;
+    display: flex;
+    margin-left: 50px;
+}
+.box31{
+    height: 250px;
+    width: 350px;
+   
+    text-align: center;
+}
+.box32{
+    height: 250px;
+    width: 700px;
+    
+   text-align: center;
+}
+.box33{
+    height: 250px;
+    width: 350px;
+    
+}
+
+.box31 span{
+    
+    text-decoration: underline;
+     text-decoration-thickness: 2px;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 8px;   
+    letter-spacing: 3px;
+    font-size:x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    
+    
+}
+.box31 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: larger;
+    color: white;
+
+}
+.box32 img{
+    width:70px;
+    height: 90px;
+    
+
+}
+.box32 p{
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: larger;
+    color: white;
+
+}
+.subscribe-box {
+  display: flex;
+  width: 350px;
+  border: 2px solid orange;
+  
+  overflow: hidden;
+  background: black;
+  margin: 20px auto 0;
+}
+
+.subscribe-box input {
+  flex: 1;
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  outline: none;
+  font-size: 15px;
+}
+
+.subscribe-box input::placeholder {
+  color: #ccc;
+}
+
+.subscribe-box button {
+  background: orange;
+  border: none;
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+.hours-card {
+  background-color: #000;
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.header {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: #D4AF37; /* Gold */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 0 12px;
+}
+
+.header::before,
+.header::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #D4AF37 50%, transparent 100%);
+  transform: translateY(-50%);
+}
+
+.header::before { left: 0; }
+.header::after { right: 0; }
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hour-item {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.hour-item.sun .time {
+  color: #D4AF37; /* Gold for Sunday */
+}
+
+.day {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+        
+      
+
+       
+        
+    </style>
+
+</head>
+<body>
+    <nav class="two">
+        <img src="a1ae5bb0-9c73-5189-9e36-292bdc04a608.jpg" alt="restaurent">
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Reservation</li>
+            <li>Contact</li>
+        </ul>
+        <button>Login</button>
+    </nav>
+   <div class="container">
+   
+        <p><b>Welcome To
+            <br><span style="color: goldenrod;">Restonest</span>
+        </b> 
+        <br><span style="font-size: 30px;  font-family:'Josefin Sans', sans-serif ;">“Restonest a cozy place for unforgettable flavors.” </span>
+        </p>
+        <button>View menu</button>
+        <div class="container1">
+    <img src="Image.png" alt="Restonent">
+</div>
+       
+    
+</div>
+<div class="box">
+<div class="container2">
+    <div class="info-box">
+        <img src="location.svg" alt="location">
+
+        <div class="text">
+            <h3>Locate Us</h3>
+            <span> Riverside 25,San Francisco,California</span>
+        </div>
+    </div>
+</div>
+<div class="container3">
+    <div class="info-box">
+        <img src="openhours.svg" alt="location">
+
+        <div class="text">
+            <h3>Open Hours</h3>
+            <span>Mon To Fri 9:00 AM-9:00 PM</span>
+        </div>
+    </div>
+</div>
+<div class="container3">
+    <div class="info-box">
+        <img src="reservation.svg " alt="location">
+
+        <div class="text">
+            <h3>Reservation</h3>
+            <span>hirestaurent@gmail.com</span>
+        </div>
+    </div>
+</div>
+</div>
+<div class="box1">
+    <img src="Photo.jpg" alt="photo">
+    <hr class="divider">
+    <div class="box2">
+        <h1>The Story </h1>
+        <br>
+        <span>Our journey began with a simple passion for great food and warm hospitality.
+Over the years, we have crafted flavors that bring people together at the table.
+Every dish we serve carries a story of tradition, care, and quality.</span>
+        <div class="box5">
+        <div class="box3">
+            <h3>1996</h3>
+            <br>
+            <span>It was established in this year,it is still consider as the best year for the customes because then only they get value for money</span>
+        </div>
+         <div class="box4">
+            <h3>2021</h3>
+            <br>
+            <span>As we are celebrating the 25th anniversery so for all there is 50% discount</span>
+        </div>
+        </div>
+
+    </div>
+    
+</div>
+<div class="box6">
+    <div class="box7">
+        
+        <h2>Menu</h2>
+    
+        <h1>Popular dish</h1>
+        <span>Our popular dishes are made to delight your senses and satisfy every craving.
+Experience flavors that keep our guests coming back.</span>
+        
+       
+    </div>
+    <div class="box8">
+        <div class="box9">
+            <img src="Photo.png" alt="mushroom">
+            <div class="card-top">
+    <p class="dish-name">Mushroom</p>
+    <span class="price">$13</span>
+</div>
+
+<div class="rating">
+    <span>5.0</span>
+    <span class="eight">★★★★★</span>
+</div>
+
+<button class="cart-btn">Add to Cart</button>
+
+        
+
+        </div>
+        <div class="box10">
+            <img src="burger.png" alt="burger">
+            <div class="burger1">
+                <p class="dish-name">Burger</p>
+                <span class="price">$10</span>
+
+
+            </div>
+            <div class="rating">
+    <span>5.0</span>
+    <span class="eight">★★★★★</span>
+</div>
+
+<button class="cart-btn">Add to Cart</button>
+
+        </div>
+        <div class="box11">
+            <img src="salad.png" alt="salad">
+           <div class="salad1"> <p class="dish-name">Salad</p>
+                <span class="price">$10</span></div>
+                <div class="rating">
+    <span>5.0</span>
+    <span class="eight">★★★★★</span>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+
+        </div>
+    </div>
+    <div class="box12"><button class="nine">See All Dishes</button></div>
+    
+</div>
+<div class="box13">
+      <div class="box14">
+      <span class="section-label" style=" font-family: 'Josefin Sans', sans-serif;;">WHAT WE OFFER</span>
+      <h2>Our Great Services</h2>
+      <p>
+       We provide exceptional dining experiences with carefully crafted menus, fresh ingredients, and warm hospitality. Whether you dine in, take away, or order delivery, we ensure quality and satisfaction every time.
+      </p>
+    </div>
+    <div class="box15">
+        <div class="box16">
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23E0B15A%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%3Cpath%20d%3D%22M4%203h7a2%202%200%200%201%202%202v16a2%202%200%200%200-2-2H4z%22%3E%3C%2Fpath%3E%0A%20%20%3Cpath%20d%3D%22M13%203h7v18h-7%22%3E%3C%2Fpath%3E%0A%20%20%3Cpath%20d%3D%22M6%208h3%22%3E%3C%2Fpath%3E%0A%20%20%3Cpath%20d%3D%22M6%2012h3%22%3E%3C%2Fpath%3E%0A%20%20%3Cpath%20d%3D%22M6%2016h3%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A" alt="specialmenu">
+            <br>
+            <span>Special Menu</span>
+        </div>
+        <div class="box17">
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23E0B15A%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%3Crect%20x%3D%223%22%20y%3D%224%22%20width%3D%2218%22%20height%3D%2218%22%20rx%3D%222%22%3E%3C%2Frect%3E%0A%20%20%3Cline%20x1%3D%2216%22%20y1%3D%222%22%20x2%3D%2216%22%20y2%3D%226%22%3E%3C%2Fline%3E%0A%20%20%3Cline%20x1%3D%228%22%20y1%3D%222%22%20x2%3D%228%22%20y2%3D%226%22%3E%3C%2Fline%3E%0A%20%20%3Cline%20x1%3D%223%22%20y1%3D%2210%22%20x2%3D%2221%22%20y2%3D%2210%22%3E%3C%2Fline%3E%0A%20%20%3Ctext%20x%3D%227.5%22%20y%3D%2218%22%20font-size%3D%228%22%20fill%3D%22%23E0B15A%22%20stroke%3D%22none%22%3E12%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A" alt="24/7">
+            <span>Opened 24/7</span>
+        </div>
+        <div class="box18">
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23E0B15A%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%3Ccircle%20cx%3D%226%22%20cy%3D%2218%22%20r%3D%222%22%3E%3C%2Fcircle%3E%0A%20%20%3Ccircle%20cx%3D%2218%22%20cy%3D%2218%22%20r%3D%222%22%3E%3C%2Fcircle%3E%0A%20%20%3Cpath%20d%3D%22M6%2018h8l3-6h-6l-1-3H5%22%3E%3C%2Fpath%3E%0A%20%20%3Crect%20x%3D%2212%22%20y%3D%225%22%20width%3D%226%22%20height%3D%224%22%20rx%3D%221%22%3E%3C%2Frect%3E%0A%3C%2Fsvg%3E%0A" alt="home delivery">
+            <span>Home Delivery</span>
+        </div>
+    </div>
+        
+    </div>
+</div>
+<div class="box19">
+    <div class="box20">
+        <span>Testimonial</span>
+        <h1>What are clients say</h1>
+        <p>We love to hear from customers, so please leave a comment or say hello in an email.</p>
+    </div>
+    <div class="box21">
+        <div class="box22">
+            <span>Daniyal bryan</span>
+            <p>NewYork</p>
+            <span style="font-size:medium;">“The food was absolutely delicious and beautifully presented. Every dish was full of flavor, and the ingredients tasted fresh. The staff was friendly and attentive, making the whole dining experience even better.”</span>
+            
+        </div>
+            
+        <div class="box23">
+             <span>Natasha D</span>
+            <p>Saltlake City</p>
+            <span style="font-size:medium;">“Amazing atmosphere and outstanding service. From the moment we walked in, we felt welcomed. The menu has a great variety, and everything we tried was cooked perfectly. Definitely a place we’ll keep coming back to.”</span>
+        </div>
+        <div class="box24">
+            <span>Jack Sparrow</span>
+            <p>San Diego</p>
+            <span style="font-size:medium; ">“One of the best dining experiences we've had. The flavors were incredible, the portions were generous, and the service was fast without feeling rushed. Highly recommend this restaurant to anyone looking for great food and a warm environment.”</span></div>
+    </div>
+</div>
+<div class="box25">
+     <div class="box26">
+        <span>BLOG</span>
+        <h1>Be First Who Read This</h1>
+        <p>“From our kitchen to your screen — food, stories, and more.”</p>
+    </div>
+    <div class="box29">
+    <div class="box27">
+        <img src="1 (1).png" alt="hi">
+         <span>RESTAURANTS  FEB 22,2026</span>
+        <h1>The Most Popular Delicious Dish </h1>
+        <p>“Our most loved dish, crafted with fresh ingredients and rich flavors. A favorite choice that keeps our guests coming back for more.”</p>
+
+    </div>
+    <div class="box28">
+   <img src="Group 18513 (1).png" alt="he">
+     <h1>The Most Popular Delicious Dish </h1>
+        <p>“Our most loved dish, crafted with fresh ingredients and rich flavors. A favorite choice that keeps our guests coming back for more.”</p>
+    </div>
+    </div>
+</div>
+<div class="box30">
+    <div class="box31"> <span>CONTACT</span>
+        <p>Mobile Number : 989888900</p>
+        <p>email : restonest@gmail.com</p>
+        <p>Address : Power rangers office ,Bihar,USA</p>
+        
+        </div>
+    <div class="box32">
+        <img src="Screenshot 2026-01-14 224612.png" alt="Logo">
+        <p>"Join Our Mailing List For Updates And To Get Exclusive Offers"</p>
+        <div class="subscribe-box">
+  <input type="email" placeholder="Email">
+  <button>Subscribe</button>
+  
+</div>
+<p>&copy; Copyright RESTONEST-2026|Designed By Shriyansh K</p>
+
+
+    </div>
+    <div class="box33">
+        <div class="hours-card">
+  <div class="header">WORKING HOURS</div>
+  <div class="hours-list">
+    <div class="hour-item">
+      <span class="day">Mon - Fri:</span>
+      <span class="time">7:00am - 10:00pm</span>
+    </div>
+    <div class="hour-item">
+      <span class="day">Sat:</span>
+      <span class="time">7:00am - 6:00pm</span>
+    </div>
+    <div class="hour-item sun">
+      <span class="day">Sun:</span>
+      <span class="time">8:00am - 6:00pm</span>
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+
+
+
+    
+</body>
+</html>
